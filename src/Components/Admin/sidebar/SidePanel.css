@@ -1,0 +1,14 @@
+.sidepanel-container {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  height: 100vh;
+  background-color: rgb(46, 46, 46);
+}
+.sidepanel-icons {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}

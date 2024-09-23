@@ -1,0 +1,17 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.Admin {
+  width: 100vw;
+  height: 40px;
+  background-color: gray;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+.Admin-container {
+  display: flex;
+  
+}
