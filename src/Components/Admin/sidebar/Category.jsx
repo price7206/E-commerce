@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Category.css";
 import Modal from "../Maodal/Modal";
 import axios from "axios";
+import { baseUrl } from "../../BaseUrl/BaseUrl";
 
 const Category = () => {
   const [showModal, setShowModal] = useState(false);
@@ -11,7 +12,7 @@ const Category = () => {
   const fetchdata = () => {
     axios
 
-      .get(`http://localhost:8080/category`)
+      .get(`${baseUrl}/category`)
       .then((res) => setCategoryData(res.data))
       .catch((error) => console.log(error));
   };
@@ -28,10 +29,7 @@ const Category = () => {
     fetchdata();
   };
   // const handelupdate = (idupdate) => {
-  //   axios
-  //     .put(`http://localhost:8080/category/${idupdate}`,categoryData)
-  //     .then((res) => console.log(res.data));
-  //   fetchdata();
+  //   console.log(idupdate);
   // };
   return (
     <div>
@@ -61,7 +59,7 @@ const Category = () => {
                   <td>{index + 1}</td>
                   <td>{data.category_name}</td>
                   <span>
-                    <button>Edit</button>
+                    {/* <button onClick={() => handelupdate()}>Edit</button> */}
                     <button onClick={() => deleteCategoryById(data._id)}>
                       delete
                     </button>

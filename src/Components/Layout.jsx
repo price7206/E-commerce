@@ -4,10 +4,10 @@ import { Outlet } from "react-router-dom";
 import Footer from "./Footer";
 import NavBelt from "./NavBelt/NavBelt";
 
-const Layout = () => {
+const Layout = ({setShowCart}) => {
   return (
     <div>
-      <Navbar />
+      <Navbar setShowCart={setShowCart} />
       <NavBelt />
       <Outlet />
       <Footer />

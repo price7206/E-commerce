@@ -1,0 +1,8 @@
+.btn-handel {
+  display: flex;
+  gap: 5px;
+  padding: 2px;
+}
+.table-category-container {
+  text-align: center;
+}

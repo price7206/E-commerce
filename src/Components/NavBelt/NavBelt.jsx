@@ -6,13 +6,13 @@ import axios from "axios";
 const NavBelt = () => {
   const [dataCategory, setDataCategory] = useState([]);
 
-  const fetchData = () => {
-    axios.get(`${baseUrl}`).then((res) => setDataCategory(res.data));
-  };
+  // const fetchData = () => {
+  //   axios.get(`${baseUrl}/category`).then((res) => console.log(res.data));
+  // };
 
-  useEffect(() => {
-    fetchData();
-  }, []);
+  // useEffect(() => {
+  //   fetchData();
+  // }, []);
 
   return (
     <div className="nav-belt-main-container">

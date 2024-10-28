@@ -1,0 +1,20 @@
+.cart-container {
+  width: 350px;
+  box-shadow: 2px 2px 2px 5px gray;
+  height: 100vh;
+  position: top-right;
+}
+.cart-main-container {
+  position: fixed;
+  right: 0%;
+  top: 0;
+  background-color: white;
+  transition-duration: 0.3s ;
+}
+.close-btn {
+  position: fixed;
+  right: 0%;
+  margin-top: 2px;
+  margin-right: 5px;
+  padding: 5px 20px;
+}

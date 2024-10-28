@@ -1,0 +1,25 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 150px; */
+  background-color: rgb(241, 240, 240);
+  height: 100vh;
+  text-align: center;
+}
+.input-bar {
+  width: 300px;
+  height: 25px;
+  border-radius: 2px;
+}
+.button-Sign-in-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.button {
+  font-size: 18px;
+  padding: 10px 20px;
+}

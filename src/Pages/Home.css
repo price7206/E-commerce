@@ -1,0 +1,16 @@
+.card-container {
+  /* width: 200px; */
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px gray;
+  padding: 5px;
+}
+.card-mainContainer {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  width: 100%;
+  margin: 10px;
+}
+.btn-Add-to-cart {
+  width: 100%;
+}
